@@ -19,7 +19,7 @@ namespace Comsa_Ionela_Florentina_Lab2.Pages.Books
             _context = context;
         }
 
-      public Book Book { get; set; }
+        public Book Book { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -33,7 +33,7 @@ namespace Comsa_Ionela_Florentina_Lab2.Pages.Books
             {
                 return NotFound();
             }
-            else 
+            else
             {
                 Book = book;
             }

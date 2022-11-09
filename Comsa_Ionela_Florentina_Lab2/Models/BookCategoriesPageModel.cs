@@ -3,7 +3,7 @@ using Comsa_Ionela_Florentina_Lab2.Data;
 
 namespace Comsa_Ionela_Florentina_Lab2.Models
 {
-    public class BookCategoriesPageModell : PageModel
+    public class BookCategoriesPageModel : PageModel
     {
         public List<AssignedCategoryData> AssignedCategoryDataList;
         public void PopulateAssignedCategoryData(Comsa_Ionela_Florentina_Lab2Context context,
@@ -61,6 +61,5 @@ namespace Comsa_Ionela_Florentina_Lab2.Models
                 }
             }
         }
-
     }
 }

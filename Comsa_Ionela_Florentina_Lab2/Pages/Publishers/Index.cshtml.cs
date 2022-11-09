@@ -40,7 +40,6 @@ namespace Comsa_Ionela_Florentina_Lab2.Pages.Publishers
                 .Where(i => i.ID == id.Value).Single();
                 PublisherData.Books = publisher.Books;
             }
-
         }
     }
 }
